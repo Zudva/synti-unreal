@@ -163,6 +163,14 @@
 			"Name": "YnnkVoiceLipsync",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2d26886016024a6f870c03faee3ad696"
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "RigLogic",
+			"Enabled": true
 		}
 	]
 }

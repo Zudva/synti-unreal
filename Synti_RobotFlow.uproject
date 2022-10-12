@@ -158,6 +158,11 @@
 		{
 			"Name": "RLPlugin",
 			"Enabled": true
+		},
+		{
+			"Name": "YnnkVoiceLipsync",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2d26886016024a6f870c03faee3ad696"
 		}
 	]
 }

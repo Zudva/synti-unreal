@@ -1,0 +1,8 @@
+{
+	"BuildId": "19505902",
+	"Modules": 
+	{
+		"RLLiveLink": "UnrealEditor-RLLiveLink.dll",
+		"RLLiveLinkEditor": "UnrealEditor-RLLiveLinkEditor.dll"
+	}
+}

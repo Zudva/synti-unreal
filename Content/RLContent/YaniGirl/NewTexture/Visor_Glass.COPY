@@ -1,0 +1,118 @@
+Begin Object Class=/Script/Engine.Material Name="Visor_Glass"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=1.520000
+      ParameterName="IOR"
+      ExpressionGUID=BFB402CA464C27BA76725E89932EDC58
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=820C3F63DB4C9BCC4A014CB5669277C0
+      Material=Material'"Visor_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=0.500000
+      ParameterName="Opacity"
+      ExpressionGUID=E0422068B34A7C04AA82FD9CD912FEB9
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=86AE887CF54381A3486FA29A1CC171B7
+      Material=Material'"Visor_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=1.000000
+      ParameterName="Rougness"
+      ExpressionGUID=C72EA1EF7E4F751A340A0CAED2ED9708
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=111577337B435121BA1D6DB8520EB8AF
+      Material=Material'"Visor_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=1.000000
+      ParameterName="Mettalic"
+      ExpressionGUID=920367D4BF4F5262A8F011A0F8BFDE91
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=A84B2DFB6E4B01A4D896B0B9E2451DBF
+      Material=Material'"Visor_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.622212,G=0.150465,B=0.661743,A=1.000000)
+      ParameterName="TintColor"
+      ExpressionGUID=679F64AC104EA9EB9590B98F6F9D8DF5
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=-256
+      MaterialExpressionGuid=480D5E2F884609D2BC5ADF9EE246EFB4
+      Material=Material'"Visor_Glass"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=1.000000
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=9462031E41475D89F3513F9272F9814B
+      Material=Material'"Visor_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=99C8B186F24B41793BFCECBF92E1CE7B
+      Material=Material'"Visor_Glass"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionConstant'"Visor_Glass:MaterialExpressionConstant_3"')
+      B=(Expression=MaterialExpressionScalarParameter'"Visor_Glass:MaterialExpressionScalarParameter_4"')
+      Alpha=(Expression=MaterialExpressionFresnel'"Visor_Glass:MaterialExpressionFresnel_0"')
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=17258FDC2E41FA11CBF7DBB28C74C473
+      Material=Material'"Visor_Glass"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"')
+   Opacity=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"')
+   BlendMode=BLEND_Translucent
+   Refraction=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   TwoSided=True
+   TranslucencyLightingMode=TLM_Surface
+   bUsesDistortion=True
+   EditorX=-144
+   EditorY=-256
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(4)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(5)=MaterialExpressionFresnel'"MaterialExpressionFresnel_0"'
+   Expressions(6)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(7)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   ParameterGroupData(4)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=9BF022464D41548B828E51B1CC724CCF
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=B6F0BA67184FEEF6BF2F07A304EA3B42
+End Object

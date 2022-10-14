@@ -1,0 +1,17 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Visor_Glass_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=26A7DD2462404EB7879950AC5E9E2EFC
+   Parent=Material'"/Game/Visor_Glass.Visor_Glass"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="IOR"),ParameterValue=1.520000,ExpressionGUID=BFB402CA464C27BA76725E89932EDC58)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Mettalic"),ParameterValue=1.000000,ExpressionGUID=920367D4BF4F5262A8F011A0F8BFDE91)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Opacity"),ParameterValue=0.388000,ExpressionGUID=E0422068B34A7C04AA82FD9CD912FEB9)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="Rougness"),ParameterValue=0.082661,ExpressionGUID=C72EA1EF7E4F751A340A0CAED2ED9708)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="TintColor"),ParameterValue=(R=0.635576,G=0.323305,B=0.661743,A=1.000000),ExpressionGUID=679F64AC104EA9EB9590B98F6F9D8DF5)
+   BasePropertyOverrides=(TwoSided=True,BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=1C8AAD4E984B2A724BE77A971BF200AA
+End Object
